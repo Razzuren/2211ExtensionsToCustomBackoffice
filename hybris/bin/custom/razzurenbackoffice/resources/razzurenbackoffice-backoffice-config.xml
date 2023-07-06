@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+ Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved
+-->
+<config xmlns="http://www.hybris.com/cockpit/config">
+
+	<!-- razzurenbackoffice UI configuration should be provided here -->
+
+	<context component="explorer-tree" parent="auto" merge-by="module">
+		<explorer-tree:explorer-tree xmlns:explorer-tree="http://www.hybris.com/cockpitng/config/explorertree">
+			<explorer-tree:navigation-node id="hmc_treenode_razzuren_backoffice" >
+				<explorer-tree:type-node code="UserIframeSettings" id="hmc_typenode_iframesettings" position="10"/>
+			</explorer-tree:navigation-node>
+		</explorer-tree:explorer-tree>
+	</context>
+
+</config>

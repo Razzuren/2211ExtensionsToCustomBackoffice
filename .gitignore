@@ -7,9 +7,15 @@ classes
 testclasses
 eclipsebin
 gensrc
-hybris
-!hybris/bin/custom
+hybris/bin/*
+!hybris/bin/custom/
 hybris/bin/custom/yb2bacceleratorstorefront
+hybris/bin/modules
+hybris/config
+hybris/data
+hybris/log
+hybris/roles
+hybris/temp
 installer
 hybris-sbg
 idea-module-files
