@@ -1,0 +1,17 @@
+# Folders to ignore, whatever the place they are
+.DS_Store
+.metadata
+.idea
+SIGNATURE.SMF
+classes
+testclasses
+eclipsebin
+gensrc
+hybris
+!hybris/bin/custom
+hybris/bin/custom/yb2bacceleratorstorefront
+installer
+hybris-sbg
+idea-module-files
+build-tools
+licenses
